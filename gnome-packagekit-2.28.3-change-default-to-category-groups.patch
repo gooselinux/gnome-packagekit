@@ -1,0 +1,13 @@
+diff --git a/data/gnome-packagekit.schemas.in b/data/gnome-packagekit.schemas.in
+index 67180da..88b1865 100644
+--- a/data/gnome-packagekit.schemas.in
++++ b/data/gnome-packagekit.schemas.in
+@@ -408,7 +408,7 @@
+       <applyto>/apps/gnome-packagekit/application/category_groups</applyto>
+       <owner>gnome-packagekit</owner>
+       <type>bool</type>
+-      <default>false</default>
++      <default>true</default>
+       <locale name="C">
+         <short>Show the category group menu</short>
+         <long>Show the category group menu. This is more complete and custom to the distribution, but takes longer to populate</long>
